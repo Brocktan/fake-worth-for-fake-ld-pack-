@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeworth",
+  "version": "${version}",
+  "name": "Donut Fake Worth",
+  "description": "Client-side only. Visually changes the worth shown in item tooltips and on the /sell button.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fakeworth.FakeWorthClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
